@@ -1,0 +1,123 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 5000px;
+}
+.header{
+    height: 100vh;
+    background-image: url("../img/image-header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.header .navbar{
+    display: flex;
+    height: 60px;
+    background-color: transparent;
+    width: 100%;
+}
+.header .navbar .left_item{
+    width: 50%;
+}
+.header .navbar .right_item{
+    width: 50%;
+    padding-right: 50px;
+    padding-top: 10px;
+}
+.header .navbar .left_item h3{
+   font-size: 20px;
+   font-weight: 600;
+   color: #fff;
+   text-transform: uppercase;
+   padding:10px 30px;
+   letter-spacing: 2px;
+   font-family: cursive;
+}
+.header .navbar .right_item ul{
+    float: right;
+
+}
+.header .navbar .right_item ul li{
+    list-style: unset;
+    display: inline;
+    padding: 5px 15px;
+    padding-bottom: 8px;
+    margin: 5px 5px;
+
+    font-weight: 500;
+    font-family: cursive;
+    letter-spacing: 2px;
+    border-radius: 20px;
+    border:1px solid transparent;
+    
+}
+.header .navbar .right_item ul li a{
+    color: #fff;
+    text-decoration: unset;
+}
+
+.header .navbar .right_item ul li:hover , .header .navbar .right_item ul .active{
+    background-color: rgba(255, 255, 255, .2);
+    border:1px solid rgba(255, 255, 255, 1);
+    overflow: hidden !important;
+    margin-left: 5px;
+}
+
+/* end nav header */
+
+/* start header desc */
+.header .desc{
+    text-align: center;
+    padding-top: 100px;
+    color:#fff ;
+}
+.header .desc p{
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+.header .desc img:hover{
+    cursor: pointer;
+}
+
+
+/* start servces section */
+.services{
+    display: flex;
+}
+.services .right_item , .services .left_item{
+    width: 50%;
+}
+.services .right_item img{
+    width: 100%;
+}
+.services .left_item h3{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: cursive;
+    color: #222;
+    text-transform: capitalize;
+}
+.services .left_item p{
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666;
+    text-transform: capitalize;
+}
+.services .left_item a{
+    text-decoration: unset;
+    color: #111;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    transition:border-bottom .5s ease-in-out;
+}
+.services .left_item a:hover{
+    border-bottom: 5px solid gold;
+    
+}
